@@ -1,11 +1,24 @@
-//Load HTTP module
+//import JsonDB
+import { JsonDB, Config } from "node-json-db";
+
+// load standard library modules
 const http = require("http"), fs = require("fs");
+
+// address configuration
 const hostname = "127.0.0.1";
 const port = 3000;
 
-//Create HTTP server and listen on port 3000 for requests
+// create database
+const db = new JsonDB(new Config("db", true, true, "/"));
+
+// database endpoint
+
+
+// create server
 const server = http.createServer((req, res) => {
-    //just load index.html for now ()
+    // 
+
+    // 
     fs.readFile("index.html", (err, data) => {
 	res.writeHead( 200, {"Content-Type": "text/html", "Content-Length": data.length } );
 	res.write(data);
