@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/willemhb/tblr/issues"
   },
-  "homepage": "https://github.com/willemhb/tblr#readme"
+  "homepage": "https://github.com/willemhb/tblr#readme",
+  "dependencies": {
+    "node-json-db": "^2.1.4"
+  }
 }
