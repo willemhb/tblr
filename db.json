@@ -1,0 +1,34 @@
+{
+    "users": {
+	"1": {
+	    "username": "meganomics",
+	    "userid": 1,
+	    "password": "kitty"
+	},
+
+	"2": {
+	    "username": "willem",
+	    "userid": 2,
+	    "password": "cat"
+	}
+    },
+
+    "schedules": {
+	"1": {
+	    "schedule1": {
+		"column-headings": ["Screening", "Visit 1", "Visit 2", "Visit 3", "Notes"],
+
+		"informed consent": {
+		    "Screening": "x",
+		    "Visit 1": "",
+		    "Visit 2": "",
+		    "Visit 3": "",
+		    "Notes": ""
+		},
+		"medical history": {
+		    "included": true
+		}
+	    }
+	}
+    }
+}
